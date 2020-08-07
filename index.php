@@ -4,7 +4,7 @@ require './Factory/ProductFactory.php';
 require './Factory/VoucherFactory.php';
 require './Factory/RuleFactory.php';
 require './Factory/CartFactory.php';
-require './Cart/CartProcessor.php';
+require './Processor/CartProcessor.php';
 
 function write($output)
 {

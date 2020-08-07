@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Cart.php';
+require_once dirname(__DIR__) . '/Cart/Cart.php';
 require_once dirname(__DIR__) . '/Model/Voucher.php';
 
 class CartProcessor
